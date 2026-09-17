@@ -87,7 +87,7 @@ jobs:
           terraform_wrapper: false
       - run: make checkdocs
       - run: make validatedocs
-      - uses: rvben/rumdl@993b5b10feca512e07d017ba4550fe690cd08c51 # v0.2.69
+      - uses: rvben/rumdl@3ca6b92ade1173330acbadd3e1070fa452158564 # v0.2.73
         with:
           path: ./docs
           report-type: annotations
